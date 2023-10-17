@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Dicee</title>
+    <title>Dice Game</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
@@ -22,12 +22,19 @@
         <img class="img2" src="images/dice6.png">
       </div>
 
+      
     </div>
+    <button id="refresh">Refresh</button>
+<script src="index.js" charset="utf-8">
+  var refreshButton = document.getElementsById("refresh");
+    refreshButton.addEventListener("click", function() {
+      location.reload();
+});
+</script>
 
-    <script src="index.js" charset="utf-8"></script>
   </body>
-  <div></div>
+
   <footer>
-    www 🎲 App Brewery 🎲 com
+    Enjoy this fun game
   </footer>
 </html>
